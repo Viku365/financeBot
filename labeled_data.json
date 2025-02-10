@@ -1,0 +1,612 @@
+[
+    {
+        "intent": "CheckExpenses",
+        "language": "en-us",
+        "text": "How much did I spend on travel September?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 15,
+                "length": 5
+            },
+            {
+                "category": "Category",
+                "offset": 24,
+                "length": 6
+            },
+            {
+                "category": "Period",
+                "offset": 31,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "CheckExpenses",
+        "language": "en-us",
+        "text": "Give me a summary of my expenses in entertainment for April.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 24,
+                "length": 8
+            },
+            {
+                "category": "Category",
+                "offset": 36,
+                "length": 13
+            },
+            {
+                "category": "Period",
+                "offset": 54,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "CheckExpenses",
+        "language": "en-us",
+        "text": "Show me how much I spent on electronics during March.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 19,
+                "length": 5
+            },
+            {
+                "category": "Category",
+                "offset": 28,
+                "length": 11
+            },
+            {
+                "category": "Period",
+                "offset": 47,
+                "length": 5
+            }
+        ]
+    },
+    {
+        "intent": "CheckExpenses",
+        "language": "en-us",
+        "text": "How much money did I use on clothing October?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 28,
+                "length": 8
+            },
+            {
+                "category": "Period",
+                "offset": 37,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CheckIncome",
+        "language": "en-us",
+        "text": "How much did I earn last quarter?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 15,
+                "length": 4
+            },
+            {
+                "category": "Period",
+                "offset": 20,
+                "length": 12
+            }
+        ]
+    },
+    {
+        "intent": "CheckIncome",
+        "language": "en-us",
+        "text": "Tell me my income for July.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 11,
+                "length": 6
+            },
+            {
+                "category": "Period",
+                "offset": 22,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "CheckIncome",
+        "language": "en-us",
+        "text": "Show me how much money I received May.",
+        "entities": [
+            {
+                "category": "Period",
+                "offset": 34,
+                "length": 3
+            }
+        ]
+    },
+    {
+        "intent": "CheckIncome",
+        "language": "en-us",
+        "text": "How much money did I receive August?",
+        "entities": [
+            {
+                "category": "Period",
+                "offset": 29,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "CheckSavings",
+        "language": "en-us",
+        "text": "How much money did I save last week?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 21,
+                "length": 4
+            },
+            {
+                "category": "Period",
+                "offset": 26,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "CheckSavings",
+        "language": "en-us",
+        "text": "Tell me my savings for October.",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 11,
+                "length": 7
+            },
+            {
+                "category": "Period",
+                "offset": 23,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "CheckSavings",
+        "language": "en-us",
+        "text": "Show me my savings balance this year.",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 11,
+                "length": 7
+            },
+            {
+                "category": "Period",
+                "offset": 27,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "CheckSavings",
+        "language": "en-us",
+        "text": "How much do I have left to save November?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 27,
+                "length": 4
+            },
+            {
+                "category": "Period",
+                "offset": 32,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "CheckDebts",
+        "language": "en-us",
+        "text": "How much do I currently owe?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 24,
+                "length": 3
+            }
+        ]
+    },
+    {
+        "intent": "CheckDebts",
+        "language": "en-us",
+        "text": "Tell me my debt balance.",
+        "entities": []
+    },
+    {
+        "intent": "CheckDebts",
+        "language": "en-us",
+        "text": "How much do I have in loans and credit cards?",
+        "entities": []
+    },
+    {
+        "intent": "CheckDebts",
+        "language": "en-us",
+        "text": "Show me my outstanding debts for September.",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 23,
+                "length": 5
+            },
+            {
+                "category": "Period",
+                "offset": 33,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "CheckInvestments",
+        "language": "en-us",
+        "text": "How much do I have invested in travel?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 19,
+                "length": 8
+            },
+            {
+                "category": "Category",
+                "offset": 31,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "CheckInvestments",
+        "language": "en-us",
+        "text": "Tell me the status of my investments in travel.",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 40,
+                "length": 6
+            },
+            {
+                "category": "Category",
+                "offset": 25,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "CheckInvestments",
+        "language": "en-us",
+        "text": "How are my stocks in investments doing?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 21,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "CheckInvestments",
+        "language": "en-us",
+        "text": "Show me my returns in home.",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 22,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "FinancialRecommendations",
+        "language": "en-us",
+        "text": "Give me tips to save more money.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 16,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "FinancialRecommendations",
+        "language": "en-us",
+        "text": "How can I reduce my fixed expenses?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 26,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FinancialRecommendations",
+        "language": "en-us",
+        "text": "Recommend strategies to improve my finances.",
+        "entities": []
+    },
+    {
+        "intent": "FinancialRecommendations",
+        "language": "en-us",
+        "text": "Give me tips on investing safely.",
+        "entities": []
+    },
+    {
+        "intent": "FinancialSummary",
+        "language": "en-us",
+        "text": "Give me a summary of my finances last quarter.",
+        "entities": [
+            {
+                "category": "Period",
+                "offset": 33,
+                "length": 12
+            }
+        ]
+    },
+    {
+        "intent": "FinancialSummary",
+        "language": "en-us",
+        "text": "Show me a balance of my income and expenses.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 24,
+                "length": 6
+            },
+            {
+                "category": "TransactionType",
+                "offset": 35,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "FinancialSummary",
+        "language": "en-us",
+        "text": "How is my financial balance September?",
+        "entities": [
+            {
+                "category": "Period",
+                "offset": 28,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "FinancialSummary",
+        "language": "en-us",
+        "text": "Tell me the general status of my finances.",
+        "entities": []
+    },
+    {
+        "intent": "CompareExpenses",
+        "language": "en-us",
+        "text": "Did I spend more on clothing in March than in August?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 6,
+                "length": 5
+            },
+            {
+                "category": "Category",
+                "offset": 20,
+                "length": 8
+            },
+            {
+                "category": "Period",
+                "offset": 32,
+                "length": 5
+            },
+            {
+                "category": "Period",
+                "offset": 46,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "CompareExpenses",
+        "language": "en-us",
+        "text": "Compare my expenses in transport for December and November.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 11,
+                "length": 8
+            },
+            {
+                "category": "Category",
+                "offset": 23,
+                "length": 9
+            },
+            {
+                "category": "Period",
+                "offset": 50,
+                "length": 8
+            },
+            {
+                "category": "Period",
+                "offset": 37,
+                "length": 8
+            }
+        ]
+    },
+    {
+        "intent": "CompareExpenses",
+        "language": "en-us",
+        "text": "In which period did I spend more on transport?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 22,
+                "length": 5
+            },
+            {
+                "category": "Category",
+                "offset": 36,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "CompareExpenses",
+        "language": "en-us",
+        "text": "Show me the difference in expenses between June and June.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 26,
+                "length": 8
+            },
+            {
+                "category": "Period",
+                "offset": 43,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "BudgetControl",
+        "language": "en-us",
+        "text": "How much money do I have left this month?",
+        "entities": [
+            {
+                "category": "Period",
+                "offset": 30,
+                "length": 10
+            }
+        ]
+    },
+    {
+        "intent": "BudgetControl",
+        "language": "en-us",
+        "text": "Show me how much I can spend without exceeding my budget.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 23,
+                "length": 5
+            },
+            {
+                "category": "TransactionType",
+                "offset": 50,
+                "length": 6
+            }
+        ]
+    },
+    {
+        "intent": "BudgetControl",
+        "language": "en-us",
+        "text": "Tell me if I have exceeded my budget in investments.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 30,
+                "length": 6
+            },
+            {
+                "category": "TransactionType",
+                "offset": 18,
+                "length": 8
+            },
+            {
+                "category": "Category",
+                "offset": 40,
+                "length": 11
+            }
+        ]
+    },
+    {
+        "intent": "BudgetControl",
+        "language": "en-us",
+        "text": "Am I within my budget for education?",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 15,
+                "length": 6
+            },
+            {
+                "category": "Category",
+                "offset": 26,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "SavingsGoals",
+        "language": "en-us",
+        "text": "How much do I need to reach my savings goal?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 31,
+                "length": 7
+            }
+        ]
+    },
+    {
+        "intent": "SavingsGoals",
+        "language": "en-us",
+        "text": "Tell me my progress on my savings goal for September.",
+        "entities": [
+            {
+                "category": "TransactionType",
+                "offset": 11,
+                "length": 8
+            },
+            {
+                "category": "Category",
+                "offset": 26,
+                "length": 7
+            },
+            {
+                "category": "Period",
+                "offset": 43,
+                "length": 9
+            }
+        ]
+    },
+    {
+        "intent": "SavingsGoals",
+        "language": "en-us",
+        "text": "Am I meeting my savings target July?",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 16,
+                "length": 7
+            },
+            {
+                "category": "Period",
+                "offset": 31,
+                "length": 4
+            }
+        ]
+    },
+    {
+        "intent": "SavingsGoals",
+        "language": "en-us",
+        "text": "Show me how much I have saved towards my education goal.",
+        "entities": [
+            {
+                "category": "Category",
+                "offset": 41,
+                "length": 9
+            }
+        ]
+    }
+]
